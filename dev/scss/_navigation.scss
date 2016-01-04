@@ -1,0 +1,236 @@
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+    color: $color__link;
+
+    &:visited {
+        color: $color__link-visited;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+        color: $color__link-hover;
+    }
+    &:focus {
+        outline: thin dotted;
+    }
+    &:hover,
+    &:active {
+        outline: 0;
+    }
+}
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+.main-navigation {
+    clear: both;
+    display: block;
+    float: left;
+    width: 100%;
+
+    ul {
+        display: none;
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+
+        ul {
+            box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+            float: left;
+            position: absolute;
+            top: $spacer*1.5;
+            left: -999em;
+            z-index: 99999;
+
+            ul {
+                left: -999em;
+                top: 0;
+            }
+
+            li {
+                &:hover > ul,
+                &.focus > ul {
+                    left: 100%;
+                }
+            }
+
+            a {
+                width: 200px;
+            }
+
+            :hover > a,
+            .focus > a {
+            }
+
+            a:hover,
+            a.focus {
+            }
+        }
+
+        li:hover > ul,
+        li.focus > ul {
+            left: auto;
+        }
+    }
+    li {
+        float: none;
+        position: relative;
+
+        &:hover > a,
+        &.focus > a {
+        }
+    }
+    a {
+        display: block;
+        text-decoration: none;
+    }
+
+    .current_page_item > a,
+    .current-menu-item > a,
+    .current_page_ancestor > a,
+    .current-menu-ancestor > a {
+    }
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+    display: block;
+}
+
+button.menu-toggle {
+    background-color: transparent;
+    box-shadow: none;
+    border: 0;
+    outline: 0; // removes glowing outline on focus
+    border-radius: 0;
+    @include font-size(1.4);
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    &:before {
+        content: '\2630';
+        padding-right: $spacer/3;
+        // adds a unicode hamburger icon
+    }
+}
+
+@media screen and (min-width: 37.5em) {
+    .menu-toggle {
+        display: none;
+    }
+    .main-navigation {
+        ul {
+            display: block;
+        }
+        li {
+            float: left;
+        }
+    }
+
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+    .site-main & {
+        margin: 0 0 $spacer*1.5;
+        overflow: hidden;
+    }
+
+    .nav-previous {
+        float: left;
+        width: 50%;
+    }
+
+    .nav-next {
+        float: right;
+        text-align: right;
+        width: 50%;
+    }
+}
+
+// Social Navigation
+.site-social__nav {
+    .site-social__menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline-block;
+        margin-right: $spacer/2;
+    }
+    a {
+        display: inline-block;
+        background-image: url(img/sprites-social.png);
+        background-image: linear-gradient(transparent, transparent),
+                          url(img/sprites-social.svg);
+        background-repeat: no-repeat;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+
+        width: 20px;
+        height: 20px;
+
+        &:hover, &:active {
+            opacity: $transparent;
+        }
+    }
+    a[href*="facebook.com"] {
+        background-position: 0 0;
+    }
+    a[href*="twitter.com"] {
+        background-position: 0 -60px;
+    }
+    a[href*="linkedin.com"] {
+        background-position: 0 -120px;
+    }
+    a[href*="pinterest.com"] {
+        background-position: 0 -180px;
+    }
+    a[href*="instagram.com"] {
+        background-position: 0 -240px;
+    }
+    a[href*="plus.google.com"] {
+        background-position: 0 -300px;
+    }
+    a[href^="mailto:"] {
+        background-position: 0 -360px;
+    }
+    a[href*="youtube.com"] {
+        background-position: 0 -420px;
+    }
+    a[href*="skype.com"] {
+        background-position: 0 -480px;
+    }
+    a[href*="vimeo.com"] {
+        background-position: 0 -540px;
+    }
+    a[href*="periscope.com"] {
+        background-position: 0 -600px;
+    }
+    a[href*="vine.co"] {
+        background-position: 0 -660px;
+    }
+    a[href*="flickr.com"] {
+        background-position: 0 -720px;
+    }
+    a[href*="medium.com"] {
+        background-position: 0 -780px;
+    }
+    a[href*="tumblr.com"] {
+        background-position: 0 -840px;
+    }
+    a[href*="dribbble.com"] {
+        background-position: 0 -900px;
+    }
+    a[href*="github.com"] {
+        background-position: 0 -960px;
+    }
+}

@@ -1,0 +1,138 @@
+/*!
+Theme Name: sixheads
+Theme URI: http://underscores.me/
+Author: John Fry
+Author URI: http://www.sixheads.com
+Description: Custom starter theme based on the Underscores framework & built by Sixheads.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sixheads
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+sixheads is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0  Normalize
+2.0  Icons & Fonts
+     - Fonts
+     - Icons
+3.0  Typography
+     - Base
+     - Headings
+     - Copy
+4.0  Elements
+     - Basic Elements
+     - Lists
+     - Images
+     - Tables
+5.0  Forms
+     - Buttons
+     - Fields
+6.0  Navigation
+  	 - Links
+  	 - Menus
+7.0  Layout
+8.0  Modules
+     - Accessibility
+     - Alignments
+     - Clearings
+     - Infinite scroll
+9.0  Widgets
+10.0  Content
+     - Posts and pages
+  	 - Asides
+  	 - Comments
+11.0 Media
+  	 - Captions
+  	 - Galleries
+
+--------------------------------------------------------------*/
+
+// Variables & Mixins
+@import "variables";
+@import "mixins";
+
+/* ==========================================================================
+   1.0 Normalize:
+   ========================================================================== */
+
+@import "normalize";
+
+/* ==========================================================================
+   2.0 Icons & Fonts:
+   ========================================================================== */
+
+// @import "fonts";
+// @import "icons";
+
+
+/* ==========================================================================
+   3.0 Typography:
+   ========================================================================== */
+
+@import "typography";
+
+/* ==========================================================================
+   4.0 Elements:
+   ========================================================================== */
+
+@import "elements";
+
+/* ==========================================================================
+   5.0 Forms:
+   ========================================================================== */
+
+@import "forms";
+
+/* ==========================================================================
+   6.0 Navigation:
+   ========================================================================== */
+
+@import "navigation";
+
+/* ==========================================================================
+   7.0 Layout:
+   ========================================================================== */
+
+@import "layout";
+
+/* ==========================================================================
+   8.0 Modules:
+   ========================================================================== */
+
+@import "modules/accessibility";
+
+@import "modules/alignments";
+
+@import "modules/clearings";
+
+@import "modules/infinite-scroll";
+
+/* ==========================================================================
+   9.0 Widgets:
+   ========================================================================== */
+
+@import "widgets";
+
+/* ==========================================================================
+   10.0 Content:
+   ========================================================================== */
+
+@import "site";
+
+/* ==========================================================================
+   11.0 Media:
+   ========================================================================== */
+
+@import "media";

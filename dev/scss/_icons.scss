@@ -1,0 +1,393 @@
+/*--------------------------------------------------------------
+## Icons - Social
+--------------------------------------------------------------*/
+
+[class^="social"] {
+    display: inline-block;
+    background-image: url(img/sprites-social.png);
+    background-image: linear-gradient(transparent, transparent),
+                      url(img/sprites-social.svg);
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Delete what you don't need - make sure you
+   set new fill colors in SVG and create a PNG version,
+   then place both files in img folder
+*/
+
+// Facebook
+.social-facebook-sm {
+    background-position: 0 0;
+    width: 20px;
+    height: 20px;
+}
+.social-facebook-sm-alt {
+    background-position: -60px 0;
+    width: 20px;
+    height: 20px;
+}
+.social-facebook-lg {
+    background-position: -120px 0;
+    width: 36px;
+    height: 36px;
+}
+.social-facebook-lg-alt {
+    background-position: -180px 0;
+    width: 36px;
+    height: 36px;
+}
+
+// Twitter
+.social-twitter-sm {
+    background-position: 0 -60px;
+    width: 20px;
+    height: 20px;
+}
+.social-twitter-sm-alt {
+    background-position: -60px -60px;
+    width: 20px;
+    height: 20px;
+}
+.social-twitter-lg {
+    background-position: -120px -60px;
+    width: 36px;
+    height: 36px;
+}
+.social-twitter-lg-alt {
+    background-position: -180px -60px;
+    width: 36px;
+    height: 36px;
+}
+
+// LinkedIn
+.social-linkedin-sm {
+    background-position: 0 -120px;
+    width: 20px;
+    height: 20px;
+}
+.social-linkedin-sm-alt {
+    background-position: -60px -120px;
+    width: 20px;
+    height: 20px;
+}
+.social-linkedin-lg {
+    background-position: -120px -120px;
+    width: 36px;
+    height: 36px;
+}
+.social-linkedin-lg-alt {
+    background-position: -180px -120px;
+    width: 36px;
+    height: 36px;
+}
+
+// Pinterest
+.social-pinterest-sm {
+    background-position: 0 -180px;
+    width: 20px;
+    height: 20px;
+}
+.social-pinterest-sm-alt {
+    background-position: -60px -180px;
+    width: 20px;
+    height: 20px;
+}
+.social-pinterest-lg {
+    background-position: -120px -180px;
+    width: 36px;
+    height: 36px;
+}
+.social-pinterest-lg-alt {
+    background-position: -180px -180px;
+    width: 36px;
+    height: 36px;
+}
+
+// Instagram
+.social-instagram-sm {
+    background-position: 0 -240px;
+    width: 20px;
+    height: 20px;
+}
+.social-instagram-sm-alt {
+    background-position: -60px -240px;
+    width: 20px;
+    height: 20px;
+}
+.social-instagram-lg {
+    background-position: -120px -240px;
+    width: 36px;
+    height: 36px;
+}
+.social-instagram-lg-alt {
+    background-position: -180px -240px;
+    width: 36px;
+    height: 36px;
+}
+
+// Google+
+.social-google-sm {
+    background-position: 0 -300px;
+    width: 20px;
+    height: 20px;
+}
+.social-google-sm-alt {
+    background-position: -60px -300px;
+    width: 20px;
+    height: 20px;
+}
+.social-google-lg {
+    background-position: -120px -300px;
+    width: 36px;
+    height: 36px;
+}
+.social-google-lg-alt {
+    background-position: -180px -300px;
+    width: 36px;
+    height: 36px;
+}
+
+// Email
+.social-email-sm {
+    background-position: 0 -360px;
+    width: 20px;
+    height: 20px;
+}
+.social-email-sm-alt {
+    background-position: -60px -360px;
+    width: 20px;
+    height: 20px;
+}
+.social-email-lg {
+    background-position: -120px -360px;
+    width: 36px;
+    height: 36px;
+}
+.social-email-lg-alt {
+    background-position: -180px -360px;
+    width: 36px;
+    height: 36px;
+}
+
+// YouTube
+.social-youtube-sm {
+    background-position: 0 -420px;
+    width: 20px;
+    height: 20px;
+}
+.social-youtube-sm-alt {
+    background-position: -60px -420px;
+    width: 20px;
+    height: 20px;
+}
+.social-youtube-lg {
+    background-position: -120px -420px;
+    width: 36px;
+    height: 36px;
+}
+.social-youtube-lg-alt {
+    background-position: -180px -420px;
+    width: 36px;
+    height: 36px;
+}
+
+// Skype
+.social-skype-sm {
+    background-position: 0 -480px;
+    width: 20px;
+    height: 20px;
+}
+.social-skype-sm-alt {
+    background-position: -60px -480px;
+    width: 20px;
+    height: 20px;
+}
+.social-skype-lg {
+    background-position: -120px -480px;
+    width: 36px;
+    height: 36px;
+}
+.social-skype-lg-alt {
+    background-position: -180px -480px;
+    width: 36px;
+    height: 36px;
+}
+
+// Vimeo
+.social-vimeo-sm {
+    background-position: 0 -540px;
+    width: 20px;
+    height: 20px;
+}
+.social-vimeo-sm-alt {
+    background-position: -60px -540px;
+    width: 20px;
+    height: 20px;
+}
+.social-vimeo-lg {
+    background-position: -120px -540px;
+    width: 36px;
+    height: 36px;
+}
+.social-vimeo-lg-alt {
+    background-position: -180px -540px;
+    width: 36px;
+    height: 36px;
+}
+
+// Periscope
+.social-periscope-sm {
+    background-position: 0 -600px;
+    width: 20px;
+    height: 20px;
+}
+.social-periscope-sm-alt {
+    background-position: -60px -600px;
+    width: 20px;
+    height: 20px;
+}
+.social-periscope-lg {
+    background-position: -120px -600px;
+    width: 36px;
+    height: 36px;
+}
+.social-periscope-lg-alt {
+    background-position: -180px -600px;
+    width: 36px;
+    height: 36px;
+}
+
+// Vine
+.social-vine-sm {
+    background-position: 0 -660px;
+    width: 20px;
+    height: 20px;
+}
+.social-vine-sm-alt {
+    background-position: -60px -660px;
+    width: 20px;
+    height: 20px;
+}
+.social-vine-lg {
+    background-position: -120px -660px;
+    width: 36px;
+    height: 36px;
+}
+.social-vine-lg-alt {
+    background-position: -180px -660px;
+    width: 36px;
+    height: 36px;
+}
+
+// Flickr
+.social-flickr-sm {
+    background-position: 0 -720px;
+    width: 20px;
+    height: 20px;
+}
+.social-flickr-sm-alt {
+    background-position: -60px -720px;
+    width: 20px;
+    height: 20px;
+}
+.social-flickr-lg {
+    background-position: -120px -720px;
+    width: 36px;
+    height: 36px;
+}
+.social-flickr-lg-alt {
+    background-position: -180px -720px;
+    width: 36px;
+    height: 36px;
+}
+
+// Medium
+.social-medium-sm {
+    background-position: 0 -780px;
+    width: 20px;
+    height: 20px;
+}
+.social-medium-sm-alt {
+    background-position: -60px -780px;
+    width: 20px;
+    height: 20px;
+}
+.social-medium-lg {
+    background-position: -120px -780px;
+    width: 36px;
+    height: 36px;
+}
+.social-medium-lg-alt {
+    background-position: -180px -780px;
+    width: 36px;
+    height: 36px;
+}
+
+// Tumblr
+.social-tumblr-sm {
+    background-position: 0 -840px;
+    width: 20px;
+    height: 20px;
+}
+.social-tumblr-sm-alt {
+    background-position: -60px -840px;
+    width: 20px;
+    height: 20px;
+}
+.social-tumblr-lg {
+    background-position: -120px -840px;
+    width: 36px;
+    height: 36px;
+}
+.social-tumblr-lg-alt {
+    background-position: -180px -840px;
+    width: 36px;
+    height: 36px;
+}
+
+// Dribbble
+.social-dribbble-sm {
+    background-position: 0 -900px;
+    width: 20px;
+    height: 20px;
+}
+.social-dribbble-sm-alt {
+    background-position: -60px -900px;
+    width: 20px;
+    height: 20px;
+}
+.social-dribbble-lg {
+    background-position: -120px -900px;
+    width: 36px;
+    height: 36px;
+}
+.social-dribbble-lg-alt {
+    background-position: -180px -900px;
+    width: 36px;
+    height: 36px;
+}
+
+// GitHub
+.social-github-sm {
+    background-position: 0 -960px;
+    width: 20px;
+    height: 20px;
+}
+.social-github-sm-alt {
+    background-position: -60px -960px;
+    width: 20px;
+    height: 20px;
+}
+.social-github-lg {
+    background-position: -120px -960px;
+    width: 36px;
+    height: 36px;
+}
+.social-github-lg-alt {
+    background-position: -180px -960px;
+    width: 36px;
+    height: 36px;
+}

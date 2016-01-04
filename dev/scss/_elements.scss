@@ -1,0 +1,86 @@
+/*--------------------------------------------------------------
+## Basic Elements
+--------------------------------------------------------------*/
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+}
+
+blockquote, q {
+	quotes: "" "";
+
+	&:before,
+	&:after {
+		content: "";
+	}
+}
+
+hr {
+	background-color: $color__background-hr;
+	border: 0;
+	height: 1px;
+	margin-bottom: $spacer*1.5;
+}
+
+/*--------------------------------------------------------------
+## Lists
+--------------------------------------------------------------*/
+ul, ol {
+	margin: 0 0 $spacer*1.5;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: $spacer*1.5;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 $spacer*1.5 $spacer*1.5;
+}
+
+// Remove list formating for nav elements
+nav {
+	ol, ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+/*--------------------------------------------------------------
+## Images
+--------------------------------------------------------------*/
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+/*--------------------------------------------------------------
+## Tables
+--------------------------------------------------------------*/
+table {
+	margin: 0 0 $spacer*1.5;
+	width: 100%;
+}
