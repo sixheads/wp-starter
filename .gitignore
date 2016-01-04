@@ -1,0 +1,30 @@
+# Dev Content
+dev/bower_components
+dev/img
+dev/js
+dev/bower.json
+
+
+# Dist Content
+dist/wp-admin
+dist/wp-includes
+dist/.htaccess
+dist/*.php
+dist/license.txt
+dist/readme.html
+dist/temp
+
+
+# wp-content folders
+dist/wp-content/languages
+dist/wp-content/plugins
+dist/wp-content/upgrade
+dist/wp-content/uploads
+dist/wp-content/themes/index.php
+
+
+# Other Content
+node_modules
+myStarterNotes.txt
+*.sublime-project
+*.sublime-workspace
